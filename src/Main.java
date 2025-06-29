@@ -7,7 +7,7 @@ public class Main {
         // Create Students
         Student s1 = new Student("John", 20);
         Student s2 = new Student("Mark", 21);
-        Teacher t1 = new Teacher("Matthew", 30);
+        Teacher t1 = new Teacher("Matthew", 30, 40000);
 
         // Display info
         s1.displayInfo();
@@ -17,6 +17,9 @@ public class Main {
         // Counter
         System.out.println("Total Number of Students: " + Student.getTotalStudents());
         System.out.println("Total Number of Teachers: " + Teacher.getTotalTeachers());
+
+        // computeSalary via Payable interface
+        System.out.println("Computed Salary: " + t1.computeSalary() + " for Prof. " + t1.getName());
 
     }
 }
