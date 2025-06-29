@@ -6,7 +6,6 @@ public class Student extends Person{
 
 
     // Constructor
-
     public Student(String name, int age) {
         super(name, age);
         totalStudents++;
@@ -16,7 +15,7 @@ public class Student extends Person{
     // Method overriding
     @Override
     public void displayInfo() {
-        System.out.println("Student ID: " + studentId + " , Name: " + name + ", Age: " + age);
+        System.out.println("Student ID: " + studentId + ", Name: " + name + ", Age: " + age);
     }
 
     // Getter for total students
