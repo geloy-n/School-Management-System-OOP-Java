@@ -1,8 +1,11 @@
 package models;
 
+import java.util.ArrayList;
+
 public class Student extends Person{
     private static int totalStudents = 0;
     private final int studentId;
+    private final ArrayList<Course> enrolledCourses = new ArrayList<>();
 
 
     // Constructor
@@ -22,4 +25,18 @@ public class Student extends Person{
     public static int getTotalStudents() {
         return totalStudents;
     }
+
+    // Add course
+    public void enrollCourse(Course course) {
+        enrolledCourses.add(course);
+    }
+
+    // Display Courses
+    public void displayCourses() {
+        System.out.println("Courses enrolled by " + name + ":");
+        for (Course c : enrolledCourses) {
+            System.out.println("- " + c.getCourseName() + " (" + c.getCourseCode() + ")");
+        }
+    }
+
 }
