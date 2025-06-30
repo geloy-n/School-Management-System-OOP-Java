@@ -1,10 +1,13 @@
 package models;
 
+import java.util.ArrayList;
+
 public class Teacher extends Person implements Payable{
 
     private final double baseSalary;
     private final int teacherId;
     private static int totalTeachers = 0;
+    private final ArrayList<Course> courses = new ArrayList<>();
 
     // Constructor
     public Teacher(String name, int age, double baseSalary){
@@ -39,6 +42,19 @@ public class Teacher extends Person implements Payable{
 
     public static int getTotalTeachers() {
         return totalTeachers;
+    }
+    
+    // Adding course
+    public void addCourse(Course course) {
+        courses.add(course);
+    }
+    
+    // Displaying course
+    public void displayCourses() {
+        System.out.println("Courses handled by " + name + ":");
+        for(Course c: courses) {
+            System.out.println("- " + c.getCourseName() + " (" + c.getCourseCode() + ") ");
+        }
     }
 
 }
