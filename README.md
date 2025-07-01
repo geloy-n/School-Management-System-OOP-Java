@@ -18,7 +18,6 @@ A simple Java console-based application designed to practice and demonstrate cor
 
 - ✅ Object-Oriented Programming (OOP)
 - ✅ Constructors
-- ✅ Overloaded Constructors (optionally extendable)
 - ✅ Array of Objects (`ArrayList`)
 - ✅ Static variables and methods
 - ✅ Inheritance
@@ -29,13 +28,21 @@ A simple Java console-based application designed to practice and demonstrate cor
 - ✅ Polymorphism (including **runtime polymorphism**)
 - ✅ Getters and Setters
 - ✅ Aggregation (shared Course objects)
-- ✅ Wrapper classes (implicitly via `ArrayList`)
-- ✅ Clean sequencing of object state setup and method calls
 
 ---
 
- <pre> ## 📂 Project Structure ``` SchoolManagement/ ├── models/ │ ├── Person.java │ ├── Student.java │ ├── Teacher.java │ ├── Admin.java │ ├── Course.java │ └── Payable.java ├── Main.java └── README.md ``` </pre>
+ ## 📂 Project Structure 
 
+ SchoolManagement/
+  models/
+    Person.java
+    Student.java
+    Teacher.java
+    Admin.java
+    Course.java
+    Payable.java
+  Main.java
+  README.md
 
 ---
 
@@ -56,6 +63,7 @@ A simple Java console-based application designed to practice and demonstrate cor
 
 ## 📌 Sample Output
 
+```bash
 Student ID: 1, Name: John, Age: 20
 Student ID: 2, Name: Mark, Age: 21
 Teacher ID: 1, Name: Matthew, Age: 30, Base Salary: 40000.0, Total Salary: 44000.0
