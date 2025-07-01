@@ -13,13 +13,10 @@ public abstract class Person {
     // Abstract method
     public abstract void displayInfo();
 
-    // Getters and Setters
+    // Getters
     public String getName() {
         return name;
     }
 
-    public int getAge() {
-        return age;
-    }
 
 }
