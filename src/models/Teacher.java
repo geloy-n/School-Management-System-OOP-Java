@@ -50,7 +50,6 @@ public class Teacher extends Person implements Payable{
     }
 
     // Removing course
-
     public void removeCourse(Course course) {
         courses.remove(course);
     }
