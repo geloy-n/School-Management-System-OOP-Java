@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Teacher extends Person implements Payable{
 
-    private final double baseSalary;
+    private double baseSalary;
     private final int teacherId;
     private static int totalTeachers = 0;
     private final ArrayList<Course> courses = new ArrayList<>();
@@ -22,7 +22,7 @@ public class Teacher extends Person implements Payable{
     // Implementing computeSalary()
     @Override
     public double computeSalary(){
-        return baseSalary;
+        return baseSalary + (courses.size() * 2000);
     }
 
     // Method overriding
@@ -48,12 +48,26 @@ public class Teacher extends Person implements Payable{
     public void addCourse(Course course) {
         courses.add(course);
     }
+
+    // Removing course
+
+    public void removeCourse(Course course) {
+        courses.remove(course);
+    }
     
     // Displaying course
     public void displayCourses() {
         System.out.println("Courses handled by " + name + ":");
         for(Course c: courses) {
             System.out.println("- " + c.getCourseName() + " (" + c.getCourseCode() + ") ");
+        }
+    }
+
+    public void setSalary(double newSalary) {
+        if (newSalary >= 0) {
+            // Optional: You can print a log here if you like
+            System.out.println("Updating base salary for " + name + " from " + baseSalary + " to " + newSalary);
+            baseSalary = newSalary;
         }
     }
 
