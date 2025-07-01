@@ -61,13 +61,14 @@ public class Main {
             totalPayroll += salary;
 
             if (p instanceof Teacher t) {
-                System.out.println("Teacher: " + t.getName() + " | Base Salary: " + t.getSalary() + " | Computed Salary: " + salary);
+                t.displayInfo();
             } else if (p instanceof Admin a) {
-                System.out.println("Admin: " + a.getName() + " | Total Salary: " + salary);
+                a.displayInfo();
             }
         }
 
         // test Adjust salary
+        System.out.println();
         t1.setSalary(45000);
 
         // test Remove course
