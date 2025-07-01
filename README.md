@@ -31,21 +31,6 @@ A simple Java console-based application designed to practice and demonstrate cor
 
 ---
 
- ## 📂 Project Structure 
-
- SchoolManagement/
-  models/
-    Person.java
-    Student.java
-    Teacher.java
-    Admin.java
-    Course.java
-    Payable.java
-  Main.java
-  README.md
-
----
-
 ## 💻 How to Run
 
 1. **Clone the repository**  
