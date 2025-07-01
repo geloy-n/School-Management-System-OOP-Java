@@ -46,10 +46,6 @@ A simple Java console-based application designed to practice and demonstrate cor
    ```bash
    java Main
 
-
-## 📌 Sample Output
-
-
 ## 📌 Sample Output
 
 ```
