@@ -47,7 +47,6 @@ A simple Java console-based application designed to practice and demonstrate cor
    java Main
 
 ## 📌 Sample Output
-
 Student ID: 1, Name: John, Age: 20
 Student ID: 2, Name: Mark, Age: 21
 Teacher ID: 1, Name: Matthew, Age: 30, Base Salary: 40000.0, Total Salary: 44000.0
