@@ -33,10 +33,10 @@ A simple Java console-based application designed to practice and demonstrate cor
 
 ## 💻 How to Run
 
-1. **Clone the repository**  
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/school-management-system-java.git
-   cd school-management-system-java
+   git clone https://github.com/geloy-n/School-Management-System-OOP-Java.git
+   cd School-Management-System-OOP-Java
 
 2. Compile the project
    ```bash
@@ -50,6 +50,9 @@ A simple Java console-based application designed to practice and demonstrate cor
 ## 📌 Sample Output
 
 
+## 📌 Sample Output
+
+```
 Student ID: 1, Name: John, Age: 20
 Student ID: 2, Name: Mark, Age: 21
 Teacher ID: 1, Name: Matthew, Age: 30, Base Salary: 40000.0, Total Salary: 44000.0
@@ -76,5 +79,7 @@ Teacher ID: 1, Name: Matthew, Age: 30, Base Salary: 45000.0, Total Salary: 47000
 
 Courses handled by Matthew:
     Mathematics 101 (MATH101)
+```
+
 
 
