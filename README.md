@@ -55,18 +55,22 @@ Total Number of Students: 2
 Total Number of Teachers: 1
 
 Courses handled by Matthew:
-- Mathematics 101 (MATH101) 
-- Science 101 (SCI101) 
+    Mathematics 101 (MATH101)
+    Science 101 (SCI101)
+
 Courses enrolled by John:
-- Mathematics 101 (MATH101)
+    Mathematics 101 (MATH101)
+
 Courses enrolled by Mark:
-- Science 101 (SCI101)
+    Science 101 (SCI101)
 
 Teacher: Matthew | Base Salary: 40000.0 | Computed Salary: 44000.0
 Admin: Luke | Total Salary: 58000.0
 Updating base salary for Matthew from 40000.0 to 45000.0
 
 Teacher ID: 1, Name: Matthew, Age: 30, Base Salary: 45000.0, Total Salary: 47000.0
+
 Courses handled by Matthew:
-- Mathematics 101 (MATH101)
+    Mathematics 101 (MATH101)
+
 
