@@ -48,7 +48,6 @@ A simple Java console-based application designed to practice and demonstrate cor
 
 ## 📌 Sample Output
 
-```bash
 Student ID: 1, Name: John, Age: 20
 Student ID: 2, Name: Mark, Age: 21
 Teacher ID: 1, Name: Matthew, Age: 30, Base Salary: 40000.0, Total Salary: 44000.0
@@ -57,12 +56,10 @@ Total Number of Students: 2
 Total Number of Teachers: 1
 
 Courses handled by Matthew:
-- Mathematics 101 (MATH101)
-- Science 101 (SCI101)
-
+- Mathematics 101 (MATH101) 
+- Science 101 (SCI101) 
 Courses enrolled by John:
 - Mathematics 101 (MATH101)
-
 Courses enrolled by Mark:
 - Science 101 (SCI101)
 
