@@ -34,18 +34,7 @@ A simple Java console-based application designed to practice and demonstrate cor
 
 ---
 
-## 📂 Project Structure
-
-SchoolManagement/
-├── models/
-│ ├── Person.java
-│ ├── Student.java
-│ ├── Teacher.java
-│ ├── Admin.java
-│ ├── Course.java
-│ └── Payable.java
-├── Main.java
-└── README.md
+ <pre> ## 📂 Project Structure ``` SchoolManagement/ ├── models/ │ ├── Person.java │ ├── Student.java │ ├── Teacher.java │ ├── Admin.java │ ├── Course.java │ └── Payable.java ├── Main.java └── README.md ``` </pre>
 
 
 ---
@@ -58,9 +47,11 @@ SchoolManagement/
    cd school-management-system-java
 
 2. Compile the project
+   ```bash
    javac models/*.java Main.java
    
-3. Run the program
+4. Run the program
+   ```bash
    java Main
 
 ## 📌 Sample Output
