@@ -1,14 +1,13 @@
 package models;
 
-public class Admin implements Payable {
-    private final String name;
+public class Admin extends Person implements Payable {
     private double baseSalary;
     private final double allowance;
 
 
     // Constructor
     public Admin(String name, double baseSalary, double allowance) {
-        this.name = name;
+        super(name, 0);
         this.baseSalary = baseSalary;
         this.allowance = allowance;
     }
@@ -16,6 +15,11 @@ public class Admin implements Payable {
     @Override
     public double computeSalary() {
         return baseSalary + allowance;
+    }
+
+    @Override
+    public void displayInfo() {
+        System.out.println("Admin Name: " + name + ", Base Salary: " + baseSalary + ", Allowance: " + allowance + ", Total Salary: " + computeSalary());
     }
 
     public String getName() {
