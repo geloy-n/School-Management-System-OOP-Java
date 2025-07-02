@@ -36,7 +36,7 @@ A simple Java console-based application designed to practice and demonstrate cor
 1. **Clone the repository**
    ```bash
    git clone https://github.com/geloy-n/School-Management-System-OOP-Java.git
-   cd School-Management-System-OOP-Java
+   cd School-Management-System-OOP-Java/src
 
 2. Compile the project
    ```bash
